@@ -6,6 +6,10 @@ PROJETO UML LOCALIZA
 
 ##Aluno: André Gustavo Coelho Pereira
 
+
+![diagrama_uml_localiza](https://github.com/user-attachments/assets/651ed0c5-85b0-4811-856d-26cc4d0cf230)
+
+
 Desafio proposto pelo Professor Emanuel Viana, na conclusão do Curso de Lógica de Programação da Plataforma AWARI:
 
 Com a configuração feita para manter um versionamento de código e uma IDE que possibilita um desenvolvimento mais ágil, vamos partir para o nosso desafio!
@@ -29,5 +33,3 @@ Sua tarefa é analisar todos os requisitos acima, elaborar caso sinta a necessid
  
 
 Ao final o que deve ser entregue é endereço do repositório do github contendo a implementação do projeto assim como também se houver qualquer documentação relacionada.
-
-![diagrama_uml_localiza](https://github.com/user-attachments/assets/651ed0c5-85b0-4811-856d-26cc4d0cf230)
