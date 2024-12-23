@@ -1,12 +1,26 @@
-Projeto Localiza
+AWARI
+Curso: Lógica de Programação
+Prof. Emanuel Viana
+Aluno: André Gustavo Coelho Pereira
+
+Projeto Localiza 
+1 – Identificação de Classes
+
 Explicação detalhada de cada campo
+
 Funcionamento Geral
-O sistema permite criar e gerenciar:
-Clientes, com informações pessoais e associações com reservas.
-Funcionários, para fins administrativos.
-Carros (genéricos, esportivos e utilitários), cada um com atributos específicos.
-Reservas, que vinculam clientes a carros e calculam o custo com base no tempo de locação.
-Promoções, para engajar clientes cadastrados.
+
+O desafio consistiu em implementar um programa para gerenciar um sistema de 
+locação de veículos,incluindo cadastro de clientes, funcionários, carros 
+(esportivos e utilitários), reservas e promoções, utilizando Python. 
+
+O código apresenta classes estruturadas como base do sistema, 
+permitindo personalizações e expansões futuras, como persistência de dados 
+e interfaces de usuário. 
+
+Para atender aos requisitos do cliente, foi recomendado 
+elaborar um diagrama UML inicial, representando as relações entre as entidades
+garantindo que os requisitos do cliente sejam atendidos de forma organizada e escalável.
 
 1. Classe Cliente
 - Representa um cliente do sistema.
