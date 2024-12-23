@@ -5,3 +5,4 @@ Relação Reserva - Carro: Cada reserva é associada a um carro.
 Subclasses de Carro: CarroEsportivo e CarroUtilitario, com atributos específicos.
 A classe Funcionario e Promocao como entidades independentes.
 
+![diagrama_uml_localiza](https://github.com/user-attachments/assets/651ed0c5-85b0-4811-856d-26cc4d0cf230)
