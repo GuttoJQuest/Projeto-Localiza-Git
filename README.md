@@ -4,7 +4,7 @@ Prof. Emanuel Viana
 
 PROJETO UML LOCALIZA
 
-##Aluno: André Gustavo Coelho Pereira
+Aluno: André Gustavo Coelho Pereira
 
 
 ![diagrama_uml_localiza](https://github.com/user-attachments/assets/651ed0c5-85b0-4811-856d-26cc4d0cf230)
