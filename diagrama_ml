@@ -1,0 +1,9 @@
+Este diagrama apresenta:
+
+Relação Cliente - Reserva: Cada cliente pode ter apenas uma reserva ativa.
+Relação Reserva - Carro: Cada reserva é associada a um carro.
+Subclasses de Carro: CarroEsportivo e CarroUtilitario, com atributos específicos.
+A classe Funcionario e Promocao como entidades independentes.
+
+
+

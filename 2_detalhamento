@@ -1,0 +1,86 @@
+Projeto Localiza
+Explicação detalhada de cada campo
+Funcionamento Geral
+O sistema permite criar e gerenciar:
+Clientes, com informações pessoais e associações com reservas.
+Funcionários, para fins administrativos.
+Carros (genéricos, esportivos e utilitários), cada um com atributos específicos.
+Reservas, que vinculam clientes a carros e calculam o custo com base no tempo de locação.
+Promoções, para engajar clientes cadastrados.
+
+1. Classe Cliente
+- Representa um cliente do sistema.
+Atributos:
+- Identificação do cliente.
+nome, cpf, idade, data_nascimento
+- Informações da carteira de motorista.
+numero_carteira, foto_carteira, ano_vencimento
+- Contato e localização
+endereco, telefone, email
+- Associação com uma reserva (inicialmente None).
+reserva
+Métodos:
+- Retorna a reserva associada ao cliente.
+get_reservas()
+
+2. Classe Funcionario
+- Representa um funcionário do sistema.
+Atributos:
+- Identificação do funcionário.
+nome, cpf, idade
+- Contato.
+endereco, telefone
+- Informações sobre o emprego.
+data_contratacao, salario, alugueis_realizados
+- Status do funcionário (ativado/desativado).
+status
+
+3. Classe Carro
+- Representa um carro genérico disponível para locação.
+Atributos:
+- Identificação e características do carro.
+placa, ano, cor, modelo
+- Informações de uso e custo.
+quilometragem, valor_diario
+- Notas adicionais.
+observação 
+
+4. Subclasses de Carro
+CarroEsportivo
+- Representa um carro esportivo.
+Atributos adicionais:
+- Quilometragem.
+tempo_100kmh 
+- Lista de melhorias específicas.
+lista_melhorias
+CarroUtilitario
+- Representa um carro utilitário.
+Atributos adicionais:
+- Número de passageiros.
+passageiros 
+- Tamanho do bagageiro.
+tamanho_bagageiro
+- Eficiência de combustível.
+km_por_litro: 
+
+5. Classe Reserva
+- Representa uma reserva de locação de carro.
+Atributos:
+- Identificação e status da reserva.
+codigo, status
+- Período da reserva.
+data_inicio, data_fim
+- Associação com um carro e um cliente.
+carro, cliente
+Métodos:
+- Calcula o custo total da reserva com base na quantidade de dias e no valor diário do carro.
+calcular_valor() 
+
+6. Classe Promocao
+- Representa uma promoção que pode ser enviada aos clientes.
+Atributos:
+- Informações sobre a promoção.
+titulo, descrição 
+- Data até quando a promoção é válida.
+data_validade 
+
