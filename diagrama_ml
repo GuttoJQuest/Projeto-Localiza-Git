@@ -5,5 +5,4 @@ Relação Reserva - Carro: Cada reserva é associada a um carro.
 Subclasses de Carro: CarroEsportivo e CarroUtilitario, com atributos específicos.
 A classe Funcionario e Promocao como entidades independentes.
 
-
-AWARI - Diagrama UML Localiza.png
+![AWARI - Diagrama UML Localiza](https://github.com/user-attachments/assets/aef5bb0b-6a33-4568-b5fa-c8d3e1a5b44d)
